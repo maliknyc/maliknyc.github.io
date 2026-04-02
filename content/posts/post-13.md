@@ -91,9 +91,7 @@ $$
 \end{cases}
 $$
 
-be the indicator that the wager wins. Then, the realized cash conversion from the bonus wager is \(Y = B(d-1)\mathbf{1}_E\).
-
-Equivalently,
+be the indicator that the wager wins. Then, the realized cash conversion from the bonus wager is \(Y = B(d-1)\mathbf{1}_E\). Equivalently,
 
 $$
 Y =
@@ -153,7 +151,7 @@ $$
 = p(1-p)B^2(d-1)^2.
 $$
 
-Under fair pricing, where \(p=1/d\), this simplifies to
+Under fair pricing, this simplifies to
 
 $$
 \mathrm{Var}(Y)
