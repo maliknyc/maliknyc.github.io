@@ -2,32 +2,15 @@
 title = 'About This Blog'
 date = '2025-01-01'
 math = true
-draft = true
 +++
 #### Levels 1 & 2
 
-Hi! This blog is my way of documenting some of my thoughts, research ideas, opinions, and more. It's much more for myself, but if you're here, welcome! Feel free to send me any thoughts or critiques at my email: felixliangnyc@gmail.com.
+This blog is my way of documenting some of my thoughts, research ideas, opinions, and more. It's much more for myself, but feel free to send any thoughts or critiques to felixliangnyc@gmail.com.
 
 There's no rigid theme, but my current interests are largely divided between:
 1. Metaphyiscs &mdash; the philosophy of self, free will, Buddhist philosophy
+2. Microeconomic Theory &mdash; decision theory, game theory, behavioral economics
 2. Betting &mdash; risk behavior, betting strategies, prediction markets
-
-A bit about me: I'm a college student studying economics who's trying to learn more about:
-- Behavioral economics
-- Decision theory
-- Game theory
-- Philosophy
-- Mathematics
-- Sports
-- Alternative markets
-
-Some hobbies of mine:
-- Chess &mdash; I'm very rusty, but send me a challenge on [Chess.com](https://www.chess.com/member/salcastuchiano) or catch me @ the [Chess Forum](https://www.chessforum.com/) when I'm home in NY
-- Watching NBA & UFC &mdash; big fan of the Knicks & Petr Yan
-- Playing [Zetamac](https://arithmetic.zetamac.com/) and other brain games &mdash; try to beat my Zetamac high score of **155** on default settings (my highest **recorded** score was [this](https://youtube.com/shorts/CKCk7yCO2oQ?si=AiTudNK_Z-F8fFIy)) or my PRs on [OpenQuant](https://openquant.co/math-game) (I'm top three in Arithmetic and technically hold the record for Flexibility)
-- Cooking &mdash; I make really good fried rice, steak, pan-roasted fish, and steamed eggs
-- Listening to music & making [Spotify](https://open.spotify.com/user/ow6ad6boduguylrvmmq94t63d?si=75bac8c432a840d6) playlists
-- Drawing, sometimes
 
 # Five Truths Framework
 At the start of every post, I'll label what *level of truth* I'll be writing on. This will be in reference to a concept adapted from Mahāyāna Buddhism's Two Truths doctrine. In particular, I will be using my **five**-level hierarchy of truths, a slightly modifed version of Zenju's "Four Levels of the Twofold Truths." I will go more into detail about the motivation for this in a subsequent post titled ["The Five Levels of Truth,"](https://maliknyc.github.io/karmagambler.github.io/posts/post-7/) but for now, the hierarchy will be defined as:
