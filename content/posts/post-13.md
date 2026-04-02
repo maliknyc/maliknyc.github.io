@@ -91,11 +91,7 @@ $$
 \end{cases}
 $$
 
-be the indicator that the wager wins. Then, the realized cash conversion from the bonus wager is
-
-$$
-Y = B(d-1)\mathbf{1}_E.
-$$
+be the indicator that the wager wins. Then, the realized cash conversion from the bonus wager is \(Y = B(d-1)\mathbf{1}_E\).
 
 Equivalently,
 
