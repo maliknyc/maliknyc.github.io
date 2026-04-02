@@ -7,7 +7,7 @@ math = true
 
 # Introduction
 
-Most people fall into one of two camps when they see a sportsbook promotion. The naïve bettor thinks they have stumbled into a windfall. The skeptical bettor thinks that they are being taken for a ride. Both reactions are understandable, but neither is particularly useful. Bonus bets occupy a more interesting position than either camp typically appreciates—they are not cash, but they are not nothing. Bonus bets return winnings but not stake, which means their value is not fixed; it is a function of how they are used. This subtlety is easy to miss, especially when ads dangle offers like "bet $5, get $200 in bonus bets," or promise to refund a losing first wager in promotional credit. Once the mechanics are understood, we can study how much of this "bonus money" can be extracted as cash, and with as little risk as possible.
+Most people fall into one of two camps when they see a sportsbook promotion: the naïve bettor thinks they've stumbled into a windfall and the skeptical bettor thinks that they're being taken for a ride. Both reactions are understandable, but neither is particularly useful. Bonus bets occupy a more interesting position than either camp typically appreciates—they are not cash, but they are not nothing. Bonus bets return winnings but not stake, which means their value is not fixed; it is a function of how they are used. This subtlety is easy to miss, especially when ads dangle offers like "bet $5, get $200 in bonus bets," or promise to refund a losing first wager in promotional credit. Once the mechanics are understood, we can study how much of this "bonus money" can be extracted as cash, and with as little risk as possible.
 
 # Institutional Setup and Notation
 
