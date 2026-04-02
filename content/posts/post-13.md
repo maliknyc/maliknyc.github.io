@@ -173,8 +173,6 @@ For later use, it is also helpful to define the *conversion rate* of a strategy 
 $$
 \rho(d,p) = \frac{\mathbb{E}[Y]}{B} = p(d-1).
 $$
-Under fair pricing, \(\rho(d)=(d-1)/d\).
+Under fair pricing, \(\rho(d)=(d-1)/d\). This gives a convenient normalized measure of how efficiently a bonus wager transforms promotional credit into real cash. 
 
-This gives a convenient normalized measure of how efficiently a bonus wager transforms promotional credit into real cash. 
-
-Our next post will go over the single-event hedge.
+**Our next post will go over the single-event hedge.**
