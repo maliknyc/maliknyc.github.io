@@ -2,6 +2,7 @@
 title = '[BBM 2] Probability Weighting Quiz'
 date = '2025-01-03'
 math = true
+draft = true
 +++
 #### Levels 2 & 3
 
