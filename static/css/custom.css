@@ -8,3 +8,19 @@ table {
     padding: 0.5em;
     text-align: center; /* Optional: Aligns text to the left */
   }
+
+  /* line spacing inside paragraphs */
+article p {
+  line-height: 1.9;
+}
+
+/* space between paragraphs */
+article p {
+  margin-bottom: 1.4rem;
+}
+
+/* optional: more room around headings */
+article h2, article h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
