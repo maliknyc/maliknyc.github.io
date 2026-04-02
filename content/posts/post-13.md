@@ -170,16 +170,10 @@ So a single unhedged bonus bet presents a basic tradeoff: longer odds raise the 
 ## Conversion Rate
 
 For later use, it is also helpful to define the *conversion rate* of a strategy as the ratio of realized or expected cash extracted to the face value of the bonus credit. For a single bonus bet, the expected conversion rate is
-
 $$
 \rho(d,p) = \frac{\mathbb{E}[Y]}{B} = p(d-1).
 $$
-
-Under fair pricing,
-
-$$
-\rho(d) = \frac{d-1}{d}.
-$$
+Under fair pricing, \(\rho(d)=(d-1)/d\).
 
 This gives a convenient normalized measure of how efficiently a bonus wager transforms promotional credit into real cash. 
 
