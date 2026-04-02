@@ -59,7 +59,7 @@ Thus, under fair pricing, a bonus bet used on longer odds converts a larger frac
 
 ## Implied Probabilities and Vigorish
 
-For a decimal price \(d\), the corresponding implied probability is \(q=1/d\). In a two-outcome market with decimal odds \(d_A\) and \(d_B\), the bookmaker's overround (or vigorish) is reflected in the fact that
+For a decimal price \(d\), the corresponding implied probability is \(q=1/d\). In a two-outcome market with decimal odds \(d_A\) and \(d_B\), the bookmaker's vigorish is reflected in the fact that
 
 $$
 \frac{1}{d_A} + \frac{1}{d_B} \geq 1.
