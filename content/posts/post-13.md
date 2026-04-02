@@ -1,5 +1,5 @@
 +++
-title = 'Bonus Money Study: Part 1'
+title = 'Bonus Money Study: Setup'
 date = '2025-01-25'
 math = true
 +++
