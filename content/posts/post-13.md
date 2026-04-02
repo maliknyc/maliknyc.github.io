@@ -121,10 +121,8 @@ Under fair pricing (\(p=1/d\)), this simplifies to
 
 $$
 \mathrm{Var}(Y)
-=
-\frac{1}{d}\left(1-\frac{1}{d}\right)B^2(d-1)^2
-=
-B^2\frac{(d-1)^3}{d^2}.
+= \frac{1}{d}\left(1-\frac{1}{d}\right)B^2(d-1)^2
+= B^2\frac{(d-1)^3}{d^2}.
 $$
 
 So a single unhedged bonus bet presents a basic tradeoff: longer odds raise the expected amount of cash that can be extracted, but they also raise the variance of the realized conversion.
@@ -163,10 +161,8 @@ Under fair pricing, where \(p=1/d\), this simplifies to
 
 $$
 \mathrm{Var}(Y)
-=
-\frac{1}{d}\left(1-\frac{1}{d}\right)B^2(d-1)^2
-=
-B^2\frac{(d-1)^3}{d^2}.
+= \frac{1}{d}\left(1-\frac{1}{d}\right)B^2(d-1)^2
+= B^2\frac{(d-1)^3}{d^2}.
 $$
 
 So a single unhedged bonus bet presents a basic tradeoff: longer odds raise the expected amount of cash that can be extracted, but they also raise the variance of the realized conversion. This tradeoff is what motivates the hedging methods studied in the sections that follow.
