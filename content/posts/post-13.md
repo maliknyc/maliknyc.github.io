@@ -181,4 +181,6 @@ $$
 \rho(d) = \frac{d-1}{d}.
 $$
 
-This gives a convenient normalized measure of how efficiently a bonus wager transforms promotional credit into real cash.
+This gives a convenient normalized measure of how efficiently a bonus wager transforms promotional credit into real cash. 
+
+Our next post will go over the single-event hedge.
