@@ -97,18 +97,14 @@ $$
 with respect to \(q_A\):
 
 $$
-\frac{dr^*}{dq_A}
-=
--1+\frac{h}{q_A^2}
+\frac{dr^*}{dq_A}=-1+\frac{h}{q_A^2}
 =0.
 $$
 
 We solve to get \(q_A^*=\sqrt{h}\). Also notice that
 
 $$
-\frac{d^2r^*}{dq_A^2}
-=
--\frac{2h}{q_A^3}<0,
+\frac{d^2r^*}{dq_A^2}=-\frac{2h}{q_A^3}<0,
 $$
 
 so this is the unique maximizer. Therefore, under a fixed two-way \(h\), the optimal implied probability on the bonus side is \(q_A^*=\sqrt{h}\), or equivalently,
