@@ -1,6 +1,6 @@
 +++
 title = 'Bonus Money Study Part 2: Long-Odds Hedging'
-date = '2025-01-26'
+date = '2026-04-05'
 math = true
 +++
 #### Levels 2 & 3
