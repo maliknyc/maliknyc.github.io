@@ -69,7 +69,7 @@ $$
 
 So in the no-vigorish benchmark, the guaranteed conversion can approach \(100\%\) of face value as the bonus-side odds become arbitrarily long.
 
-## The Role of Vigorish
+## With Vigorish
 
 In real sportsbook markets, the two-way odds are usually not fair. Let \(q_A=1/d_A\), \(q_B=1/d_B\), and define the two-way overround by \(h=q_A+q_B-1\). Then, \(h>0\) represents the bookmaker's margin, or *vigorish*. We can then rewrite the conversion rate as
 
@@ -121,9 +121,9 @@ $$
 
 This result formalizes an important practical point. Very short odds waste bonus value because the stake-not-returned structure is unfavorable there. But extremely long odds make the required hedge too expensive when factoring in the vigorish. The optimal one-event hedge lies at moderately long plus-money odds.
 
-## A Standard Example
+## Example
 
-As a concrete benchmark, consider a symmetric \(-110/-110\) market. In decimal form,
+Consider a symmetric \(-110/-110\) market. In decimal form,
 
 $$
 d_A=d_B\approx 1.9091,
