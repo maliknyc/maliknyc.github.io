@@ -1,0 +1,50 @@
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Bonus Money Study Part 2: Long-Odds Hedging</title>
+<link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/css/fonts.css><link defer rel=stylesheet href=/css/syntax.css><script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js></script><script>MathJax={tex:{displayMath:[["\\[","\\]"],["$$","$$"]],inlineMath:[["\\(","\\)"]]}}</script></head><body><header><a id=site-title href=/>Maliknyc</a><section id=social-links class=header-group><a href=https://github.com/maliknyc class=header-icon><svg width="16" height="16" fill="currentcolor" class="bi bi-github" viewBox="0 0 16 16"><path d="M8 0C3.58.0.0 3.58.0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38.0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95.0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12.0.0.67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15.0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48.0 1.07-.01 1.93-.01 2.2.0.21.15.46.55.38A8.012 8.012.0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+</a><a href=/index.xml class=header-icon><svg width="16" height="16" fill="currentcolor" class="bi bi-rss" viewBox="0 0 16 16"><path d="M14 1a1 1 0 011 1v12a1 1 0 01-1 1H2a1 1 0 01-1-1V2a1 1 0 011-1h12zM2 0A2 2 0 000 2v12a2 2 0 002 2h12a2 2 0 002-2V2a2 2 0 00-2-2H2z"/><path d="M5.5 12a1.5 1.5.0 11-3 0 1.5 1.5.0 013 0zm-3-8.5a1 1 0 011-1c5.523.0 10 4.477 10 10a1 1 0 11-2 0 8 8 0 00-8-8 1 1 0 01-1-1zm0 4a1 1 0 011-1 6 6 0 016 6 1 1 0 11-2 0 4 4 0 00-4-4 1 1 0 01-1-1z"/></svg></a></section></header><section id=post><h1 id=post-title>Bonus Money Study Part 2: Long-Odds Hedging</h1><time>2026-04-05</time><hr><div id=post-content><h4 id=levels-2--3>Levels 2 & 3</h4><p>A common way to convert bonus money into real cash is to place the bonus bet on one side of a two-outcome event and simultaneously place a real-money hedge on the opposite side. When performed correctly, the conversion can be made completely risk-free.</p><p>Consider a two-outcome event with mutually exclusive and exhaustive outcomes \(A\) and \(B\). Suppose a bettor places bonus money of face value \(B>0\) on outcome \(A\) at decimal odds \(d_A>1\), and places a cash hedge of size \(H>0\) on outcome \(B\) at decimal odds \(d_B>1\).</p><p>Under the payout convention established in Part 1, if the bonus bet on \(A\) wins, it returns only the profit component \(B(d_A-1)\), while the cash hedge \(H\) is lost. Thus the net cash conversion if \(A\) occurs is</p>$$
+C_A(H)=B(d_A-1)-H.
+$$<p>If instead \(B\) occurs, the bonus bet loses, but the cash hedge wins and generates net profit \(H(d_B-1)\). Thus the net cash conversion if \(B\) occurs is</p>$$
+C_B(H)=H(d_B-1).
+$$<p>The bettor&rsquo;s objective is to choose \(H\) so as to maximize the guaranteed amount of cash extracted from the bonus, that is, to maximize</p>$$
+\min\{C_A(H),\,C_B(H)\}.
+$$<h2 id=the-risk-free-hedge>The Risk-Free Hedge</h2><p>Because \(C_A(H)\) is strictly decreasing in \(H\) and \(C_B(H)\) is strictly increasing in \(H\), the guaranteed conversion is maximized when the two outcomes yield the same cash amount. Thus the optimal hedge solves</p>$$
+B(d_A-1)-H = H(d_B-1).
+$$<p>Solving for \(H\), we obtain the unique risk-free hedge stake</p>$$
+H^*=\frac{B(d_A-1)}{d_B}.
+$$<p>Substituting \(H^*\) into either outcome gives the guaranteed cash conversion</p>$$
+C^*=B(d_A-1)-H^*=H^*(d_B-1)=B(d_A-1)\left(1-\frac{1}{d_B}\right).
+$$<p>Dividing by \(B\), the corresponding conversion rate is</p>$$
+r^*=\frac{C^*}{B}=(d_A-1)\left(1-\frac{1}{d_B}\right).
+$$<p>This is the standard formula for one-event bonus-bet conversion. It shows that the conversion rate depends only on the two quoted prices: the odds on the bonus side and the odds on the hedge side.</p><p>Recall that if the two prices are fair for a binary event, then \(1/d_A+1/d_B=1\). In that case, \(1-1/d_B=1/d_A\), allowing us to simplify the guaranteed conversion rate to</p>$$
+r^*=(d_A-1)\frac{1}{d_A}=\frac{d_A-1}{d_A}.
+$$<p>This is exactly the expected conversion rate of an unhedged bonus bet placed at fair odds. Thus, in a fair two-outcome market, single-event hedging transforms the expected value of the bonus bet into a certainty. In particular, under fair pricing, longer odds always improve the guaranteed conversion rate, since \(1-1/d_A\) is increasing in \(d_A\), with</p>$$
+\lim_{d_A\to\infty}\frac{d_A-1}{d_A}=1.
+$$<p>So in the no-vigorish benchmark, the guaranteed conversion can approach \(100\%\) of face value as the bonus-side odds become arbitrarily long.</p><h2 id=with-vigorish>With Vigorish</h2><p>In real sportsbook markets, the two-way odds are usually not fair. Let \(q_A=1/d_A\), \(q_B=1/d_B\), and define the two-way overround by \(h=q_A+q_B-1\). Then, \(h>0\) represents the bookmaker&rsquo;s margin, or <em>vigorish</em>. We can then rewrite the conversion rate as</p>$$
+r^*=(d_A-1)\left(1-\frac{1}{d_B}\right)
+=\left(\frac{1-q_A}{q_A}\right)(q_A-h).
+$$<p>A useful decomposition is</p>$$
+r^*=\frac{d_A-1}{d_A}-h(d_A-1),
+$$<p>where the first term, \((d_A-1)/d_A\), can be treated as the &ldquo;fair-odds benchmark,&rdquo; while the second term, \(h(d_A-1)\), is the reduction in conversion caused by vigorish. It follows immediately that, for fixed \(d_A\), a higher vigorish lowers the conversion rate, and that this penalty is larger for longer bonus-side odds.</p><h2 id=optimal-bonus-side-odds>Optimal Bonus-Side Odds</h2><p>A natural question that follows is whether, under a fixed level of vigorish, the bettor should simply place the bonus bet on the longest odds available. The answer is no. If \(h\) is held fixed, there is generally an interior optimum. We can maximize</p>$$
+r^*(q_A)=\left(\frac{1-q_A}{q_A}\right)(q_A-h)
+$$<p>with respect to \(q_A\):</p>$$
+\frac{dr^*}{dq_A}=-1+\frac{h}{q_A^2}
+=0.
+$$<p>We solve to get \(q_A^*=\sqrt{h}\). Also notice that</p>$$
+\frac{d^2r^*}{dq_A^2}=-\frac{2h}{q_A^3}<0,
+$$<p>so this is the unique maximizer. Therefore, under a fixed two-way \(h\), the optimal implied probability on the bonus side is \(q_A^*=\sqrt{h}\), or equivalently,</p>$$
+d_A^*=\frac{1}{\sqrt{h}}.
+$$<p>Substituting \(q_A^*=\sqrt{h}\) into the conversion formula gives</p>$$
+r_{\max}^*=(1-\sqrt{h})^2.
+$$<p>This result formalizes an important practical point. Very short odds waste bonus value because the stake-not-returned structure is unfavorable there. But extremely long odds make the required hedge too expensive when factoring in the vigorish. The optimal one-event hedge lies at moderately long plus-money odds.</p><h2 id=example>Example</h2><p>Consider a symmetric \(-110/-110\) market. In decimal form,</p>$$
+d_A=d_B\approx 1.9091,
+$$<p>so</p>$$
+h=\frac{1}{1.9091}+\frac{1}{1.9091}-1\approx 0.047619.
+$$<p>The fixed-overround optimum is then</p>$$
+q_A^*=\sqrt{0.047619}\approx 0.2182,
+\qquad
+d_A^*=\frac{1}{\sqrt{0.047619}}\approx 4.58,
+$$<p>which corresponds to approximately \(+358\) in American odds. The associated maximum guaranteed conversion rate is</p>$$
+r_{\max}^*=(1-\sqrt{0.047619})^2\approx 0.611.
+$$<p>So under a standard sportsbook-style two-way margin of roughly \(4.76\%\), the best possible one-event hedge converts about \(61.1\%\) of the bonus face value into risk-free cash.</p><h2 id=capital-requirement>Capital Requirement</h2><p>One final point is worth noting. Better conversion at longer bonus-side odds generally requires more real money to complete the hedge. Since</p>$$
+H^*=\frac{B(d_A-1)}{d_B},
+$$<p>the hedge stake can become quite large when \(d_A\) is large and \(d_B\) is correspondingly short. Thus, even when longer odds improve the conversion rate, they may be less practical for bettors with limited available cash.</p></div></section><section id=after-post><p>If you have any comments or questions about this post, feel free to:</p><div id=reply-by-email><a href="mailto:felixliangnyc@gmail.com?subject=Reply to: Bonus%20Money%20Study%20Part%202%3a%20Long-Odds%20Hedging">Reply by
+email</a></div></section><footer>Powered by <a href=https://gohugo.io/>Hugo</a>, using theme <a href=https://github.com/LuisSousaRego/Ardeidae>Ardeidae</a></footer></body></html>
