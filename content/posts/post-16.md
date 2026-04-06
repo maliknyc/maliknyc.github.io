@@ -138,9 +138,7 @@ $$
 Hence the continuous optimizer is
 
 $$
-N^*
-=
-\ln\!\bigl(\ln 2/(\ln 2-\ln d)\bigr)/\ln d.
+N^*=\ln\!\bigl(\ln 2/(\ln 2-\ln d)\bigr)/\ln d.
 $$
 
 For \(d=1.91\), this gives \(N^*\approx 4.19\), so the best integer choice is \(N=4\). This recovers the numerical pattern above and shows that, under standard sportsbook-style pricing, the most efficient symmetric parlay hedge will generally use only a moderate number of legs.
