@@ -16,24 +16,19 @@ we have \(\mathbb{E}[Y_i]=b_i(d_i-1)/d_i\) and \(\operatorname{Var}(Y_i)=b_i^2(d
 By linearity of expectation and independence,
 
 $$
-\mathbb{E}[S_N]
-=
-\sum_{i=1}^N b_i\frac{d_i-1}{d_i}
+\mathbb{E}[S_N]=\sum_{i=1}^N b_i\frac{d_i-1}{d_i}
 $$
 
 and
 
 $$
-\operatorname{Var}(S_N)
-=
-\sum_{i=1}^N b_i^2\frac{(d_i-1)^3}{d_i^2}.
+\operatorname{Var}(S_N)=\sum_{i=1}^N b_i^2\frac{(d_i-1)^3}{d_i^2}.
 $$
 
 Thus, we can notice that diversification doesn't generate expected conversion on its own. The expected conversion rate is simply
 
 $$
-\frac{\mathbb{E}[S_N]}{B}
-=
+\frac{\mathbb{E}[S_N]}{B}=
 \sum_{i=1}^N \frac{b_i}{B}\cdot \frac{d_i-1}{d_i},
 $$
 
@@ -82,9 +77,7 @@ The **proof** is by Chebyshev's inequality, where for every \(\varepsilon>0\),
 $$
 \Pr\left(\left|S_N-B\frac{d-1}{d}\right|>\varepsilon\right)
 \leq
-\frac{\operatorname{Var}(S_N)}{\varepsilon^2}
-=
-\frac{B^2(d-1)^3}{N d^2 \varepsilon^2}.
+\frac{\operatorname{Var}(S_N)}{\varepsilon^2}=\frac{B^2(d-1)^3}{N d^2 \varepsilon^2}.
 $$
 
 The right-hand side converges to \(0\) as \(N\to\infty\), so the claim follows. ∎
