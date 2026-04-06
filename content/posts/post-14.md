@@ -5,7 +5,7 @@ math = true
 +++
 #### Levels 2 & 3
 
-A common way to convert bonus money into real cash is to place the bonus bet on one side of a two-outcome event and simultaneously place a real-money hedge on the opposite side. When performed correctly, the conversion can be made completely risk-free.
+OneA common way to convert bonus money into real cash is to place the bonus bet on one side of a two-outcome event and simultaneously place a real-money hedge on the opposite side. When performed correctly, the conversion can be made completely risk-free.
 
 Consider a two-outcome event with mutually exclusive and exhaustive outcomes \(A\) and \(B\). Suppose a bettor places bonus money of face value \(B>0\) on outcome \(A\) at decimal odds \(d_A>1\), and places a cash hedge of size \(H>0\) on outcome \(B\) at decimal odds \(d_B>1\).
 
