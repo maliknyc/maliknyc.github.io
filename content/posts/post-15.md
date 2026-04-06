@@ -1,6 +1,6 @@
 +++
 title = 'Bonus Money Study Part 3: Diversification
-date = '2026-04-05'
+date = '2026-04-06'
 math = true
 +++
 #### Levels 2 & 3
