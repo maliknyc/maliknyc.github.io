@@ -5,8 +5,6 @@ math = true
 +++
 #### Levels 2 & 3
 
-# Diversification Across Many Independent Bonus Wagers
-
 The single-event hedge studied in the previous post produces an exact risk-free conversion by supplementing the bonus wager with a real-money hedge. A different benchmark is obtained if the bettor instead spreads the bonus funds across many independent bonus wagers. This doesn't, by itself, create a risk-free payoff in finite cases, but it does reduce volatility and clarifies the sense in which bonus money can become more cash-like under diversification.
 
 Let a total bonus amount \(B>0\) be allocated across \(N\) independent bonus wagers. Write \(b_i \geq 0\) for the face value allocated to wager \(i\), where \(\sum_{i=1}^N b_i = B\).
