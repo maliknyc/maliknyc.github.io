@@ -30,19 +30,13 @@ $$
 The optimal full state-space hedge (i.e., the maximum guaranteed cash conversion) in the general case is
 
 $$
-C^*
-=
-\frac{B}{\displaystyle\sum_{\omega\in\Omega} 1/(D_\omega-1)}.
+C^*=\frac{B}{\displaystyle\sum_{\omega\in\Omega} 1/(D_\omega-1)}.
 $$
 
 The unique optimal stake allocation is
 
 $$
-x_\omega^*
-=
-\frac{C^*}{D_\omega-1}
-=
-\frac{B\,[1/(D_\omega-1)]}{\displaystyle\sum_{\nu\in\Omega} 1/(D_\nu-1)}.
+x_\omega^*=\frac{C^*}{D_\omega-1}=\frac{B\,[1/(D_\omega-1)]}{\displaystyle\sum_{\nu\in\Omega} 1/(D_\nu-1)}.
 $$
 
 The **proof** is as follows. Suppose some feasible allocation \(x\) attains guaranteed conversion \(C\), so that \(x_\omega(D_\omega-1)\ge C\) for every \(\omega\). Then \(x_\omega \ge C/(D_\omega-1)\) for every \(\omega\).
@@ -51,9 +45,7 @@ Summing over all states gives
 $$
 B=\sum_{\omega\in\Omega}x_\omega
 \ge
-\sum_{\omega\in\Omega} C/(D_\omega-1)
-=
-C\sum_{\omega\in\Omega} 1/(D_\omega-1).
+\sum_{\omega\in\Omega} C/(D_\omega-1)=C\sum_{\omega\in\Omega} 1/(D_\omega-1).
 $$
 
 Hence every feasible guaranteed conversion must satisfy
@@ -165,9 +157,7 @@ This proposition formalizes a useful practical implication: if the bookmaker's m
 As a corollary, if every event has the same overround \(s\), then the optimal symmetric price is \(d=2/s\), and the guaranteed conversion rate becomes
 
 $$
-\frac{C^*}{B}
-=
-\frac{(2/s)^N-1}{2^N}.
+\frac{C^*}{B}=\frac{(2/s)^N-1}{2^N}.
 $$
 
 This nests both earlier benchmarks: when \(s=1\), it reduces to the no-vig formula \(1-2^{-N}\); when \(s>1\), it gives the corresponding vig-distorted optimum.
