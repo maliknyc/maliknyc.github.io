@@ -2,7 +2,6 @@
 title = 'The Five Levels of Truth'
 date = '2025-01-05'
 math = true
-draft = true
 +++
 #### Level 3
 
