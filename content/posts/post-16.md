@@ -85,9 +85,7 @@ $$
 The guaranteed conversion is then
 
 $$
-C^*
-=
-\frac{B}{2^N}\left(\prod_{j=1}^N d_j - 1\right).
+C^*=\frac{B}{2^N}\left(\prod_{j=1}^N d_j - 1\right).
 $$
 
 If, in addition, all legs have the same decimal odds \(d\), then \(\prod_{j=1}^N d_j=d^N\), and the conversion rate becomes
